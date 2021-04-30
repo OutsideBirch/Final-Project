@@ -1,1 +1,11 @@
-# Final-Project
+This is a step by step guide to using finalProject2.m, a program that allow for the easy creation of customizable graphs.
+Step 1: The first step to accessing the program is to call the function by typing finalProjectGraph in the command line. This will pull up the UI.
+Step 2: Once the UI is oppened several things can be modified and changed. On the far left there are two sets of radio buttons, one set which modifies the symbol(o, line, or *) and the second which modifies the color(red(r), blue(b), or black(k)). In order to change this the button next to the desired effect needs to be selected and it will remain selected until another one is desired.
+Step 3: Next to the radio buttons are several labeled text boxes, the top three of which control the title of the graph and both of the axis. Any combonation of numbers letters or symbols can be entered, including none. 
+An example set of inputs would be - Title = Titration of a Weak Acid , Y Axis = pH , X Axis = mL of NaOH 
+Step 4: Underneath the title options are text boxes that allow the user to manipulate the limits. These accept a single number per box with the lower limit of both requiring a smaller number than its respective upper limit. Should these enteries be left blank the graph will be auto-sized based on the data submitted. If the user makes a mistake they will be notified of the correct way to input data.
+An example set of inputs would be - X limit upper = 25 , X limit lower = 0 , Y limit upper = 14 , Y limit lower = 0
+Step 5: Underneath the graph and to the right of the limit boxes are labeled text boxes that accept the inputs for X and Y. The graph both boxes to have a list of numbers seperated by commas, with the number of points given to be the same for both X and Y. If the user makes a mistake they will be notified of the correct way to input data.
+An example set of inputs would be - X values = 1,3,5,12,17,24 , Y values = 3,3.5,4,7,13,14
+Step 6: After all of the data has been input the plot button found in the lower left hand corner can be pressed to add all canges to the graph and plot the points. It can be used multiple times if the user wants multiple lines or data point sets on the same graph.
+Step 7: Once everything is graphed and no longer needed the reset button directly underneath the plot button can be pressed removing all data from the graph. 
